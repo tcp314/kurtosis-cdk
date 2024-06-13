@@ -24,7 +24,7 @@ deploy_zkevm_permissionless_node: false
 deploy_observability: true
 
 # Deploy Blockscout stack.
-deploy_l2_blockscout: false
+deploy_l2_blockscout: true
 
 # Deploy eth load balancer.
 deploy_blutgang: false
@@ -145,12 +145,12 @@ args:
   # # The address of the Polygon data committee contract on L1.
   # polygon_data_committee_address: ""
 
-  polygon_zkevm_explorer: https://explorer.private/
+  polygon_zkevm_explorer: https://dev-explorer.tcpofficial.com/
   l1_explorer_url: https://sepolia.etherscan.io/
 
   # If this is true, we will automatically deploy an ERC20 contract on
   # L1 to be used at the gasTokenAddress
-  zkevm_use_gas_token_contract: false
+  zkevm_use_gas_token_contract: true
 
   ## Permissionless node configuration.
   trusted_sequencer_node_uri: zkevm-node-sequencer-001:6900

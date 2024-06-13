@@ -1,5 +1,5 @@
 blockscout_package = import_module(
-    "github.com/xavier-romero/kurtosis-blockscout/main.star"
+    "github.com/tcp314/kurtosis-blockscout/main.star"
 )
 
 
