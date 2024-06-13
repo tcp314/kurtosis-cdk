@@ -24,6 +24,7 @@ def run(plan, args):
         plan,
         args={
             "blockscout_public_port": args["blockscout_public_port"],
+            "blockscot_backend_port": args["blockscot_backend_port"],
             "rpc_url": rpc_url,
             "trace_url": rpc_url,
             "ws_url": ws_url,
